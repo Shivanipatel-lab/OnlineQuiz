@@ -1,0 +1,64 @@
+body {
+    height: 100%;
+    background-color: lightblue;
+    font-size: 14px;
+}
+center {
+    margin-top: 150px;
+}
+h1 {
+    letter-spacing: 2px;
+}
+form {
+    color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 25px;
+    width: auto;
+    display: inline-block;
+    background-color: black;
+}
+input[type="submit"] {
+    width: 150px;
+    margin: 0px;
+    background: transparent;
+    color: white;
+}
+input[type="reset"] {
+    width: 150px;
+    margin: 0px;
+    background: transparent;
+    color: white;
+}
+input, .submit, select {
+    margin: 15px;
+    border-radius: 10px;
+    border: 0;
+    outline: none;
+    padding: 10px;
+}
+.submit {
+    margin-left: 15px;
+    width: 150px;
+    border: 2px solid cyan;
+}
+.submit:hover {
+    background-color: cyan;
+    color: black;
+    cursor: pointer;
+}
+table {
+    border: 1px solif black;
+}
+table input {
+    margin: 5px;
+    padding: 5px;
+}
+th {
+    border: 1px solid black;
+    font-size: 14px;
+    font-weight: bolder;
+}
+td {
+    border: 1px solid black;
+}
